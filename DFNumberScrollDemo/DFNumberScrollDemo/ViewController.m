@@ -8,14 +8,14 @@
 
 #import "ViewController.h"
 #import "Masonry.h"
-#import "LNGTeamPKscoreView.h"
+#import "DFTeamPKscoreView.h"
 #import "DFNumberScrollHelp.h"
 
 
 @interface ViewController ()
 
 //团队PK数据
-@property (nonatomic, strong) LNGTeamPKscoreView *teamPKscoreView;
+@property (nonatomic, strong) DFTeamPKscoreView *teamPKscoreView;
 
 //系统默认的数字
 @property (nonatomic, strong) DFNumberScrollView *sysNumView;
@@ -32,7 +32,7 @@
     
     
     //团队PK数据
-    self.teamPKscoreView = [[LNGTeamPKscoreView alloc] init];
+    self.teamPKscoreView = [[DFTeamPKscoreView alloc] init];
     [self.view addSubview:self.teamPKscoreView];
     //self.teamPKscoreView.hidden = YES;
     //团队PK数据

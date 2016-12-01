@@ -1,18 +1,18 @@
 //
-//  LNGTeamPKscoreView.m
+//  DFTeamPKscoreView.m
 //  DFNumberScrollDemo
 //
 //  Created by zhanghongwei on 1/12/16.
 //  Copyright © 2016年 zhanghongwei. All rights reserved.
 //
 
-#import "LNGTeamPKscoreView.h"
+#import "DFTeamPKscoreView.h"
 #import "Masonry.h"
 
 #import "DFNumberScrollHelp.h"
 
 
-@interface LNGTeamPKscoreView()
+@interface DFTeamPKscoreView()
 
 //背景
 @property (nonatomic, strong) UIView *bgView;
@@ -30,8 +30,7 @@
 @end
 
 
-@implementation LNGTeamPKscoreView
-
+@implementation DFTeamPKscoreView
 
 - (instancetype)initWithFrame:(CGRect)frame
 {
@@ -157,6 +156,18 @@
 }
 
 @end
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

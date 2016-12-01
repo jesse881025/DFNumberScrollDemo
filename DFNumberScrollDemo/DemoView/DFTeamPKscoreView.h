@@ -1,5 +1,5 @@
 //
-//  LNGTeamPKscoreView.h
+//  DFTeamPKscoreView.h
 //  DFNumberScrollDemo
 //
 //  Created by zhanghongwei on 1/12/16.
@@ -8,13 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LNGTeamPKscoreView : UIView
+@interface DFTeamPKscoreView : UIView
+
 
 #pragma mark - 加载数据
 - (void)loadData:(NSNumber*)leftScore rightScore:(NSNumber*)rightScore;
 
 
 @end
+
+
+
 
 
 

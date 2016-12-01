@@ -39,7 +39,7 @@
 		847985151DEEFCA1006242FE /* white_Num_seperator.png in Resources */ = {isa = PBXBuildFile; fileRef = 847984FF1DEEFCA1006242FE /* white_Num_seperator.png */; };
 		847985181DEEFCDC006242FE /* DFNumberScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847985171DEEFCDC006242FE /* DFNumberScrollView.m */; };
 		8479851E1DEF00E8006242FE /* DFNumberScrollHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 8479851D1DEF00E8006242FE /* DFNumberScrollHelp.m */; };
-		847985221DEFC37B006242FE /* LNGTeamPKscoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847985211DEFC37B006242FE /* LNGTeamPKscoreView.m */; };
+		847985251DEFD47E006242FE /* DFTeamPKscoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847985241DEFD47E006242FE /* DFTeamPKscoreView.m */; };
 		DBCF099EE894050C025CB57F /* libPods-DFNumberScrollDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9360ED664895D652099A26D4 /* libPods-DFNumberScrollDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -104,8 +104,8 @@
 		847985171DEEFCDC006242FE /* DFNumberScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFNumberScrollView.m; sourceTree = "<group>"; };
 		8479851C1DEF00E8006242FE /* DFNumberScrollHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFNumberScrollHelp.h; sourceTree = "<group>"; };
 		8479851D1DEF00E8006242FE /* DFNumberScrollHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFNumberScrollHelp.m; sourceTree = "<group>"; };
-		847985201DEFC37B006242FE /* LNGTeamPKscoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNGTeamPKscoreView.h; sourceTree = "<group>"; };
-		847985211DEFC37B006242FE /* LNGTeamPKscoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNGTeamPKscoreView.m; sourceTree = "<group>"; };
+		847985231DEFD47E006242FE /* DFTeamPKscoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFTeamPKscoreView.h; sourceTree = "<group>"; };
+		847985241DEFD47E006242FE /* DFTeamPKscoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFTeamPKscoreView.m; sourceTree = "<group>"; };
 		9360ED664895D652099A26D4 /* libPods-DFNumberScrollDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DFNumberScrollDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5E1F20CBF08848995DE38ED /* Pods-DFNumberScrollDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFNumberScrollDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DFNumberScrollDemo/Pods-DFNumberScrollDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -295,8 +295,8 @@
 		8479851F1DEFC326006242FE /* DemoView */ = {
 			isa = PBXGroup;
 			children = (
-				847985201DEFC37B006242FE /* LNGTeamPKscoreView.h */,
-				847985211DEFC37B006242FE /* LNGTeamPKscoreView.m */,
+				847985231DEFD47E006242FE /* DFTeamPKscoreView.h */,
+				847985241DEFD47E006242FE /* DFTeamPKscoreView.m */,
 			);
 			path = DemoView;
 			sourceTree = "<group>";
@@ -508,11 +508,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8479851E1DEF00E8006242FE /* DFNumberScrollHelp.m in Sources */,
+				847985251DEFD47E006242FE /* DFTeamPKscoreView.m in Sources */,
 				847985181DEEFCDC006242FE /* DFNumberScrollView.m in Sources */,
 				847984B91DEEFB79006242FE /* ViewController.m in Sources */,
 				847984B61DEEFB79006242FE /* AppDelegate.m in Sources */,
 				847984B31DEEFB79006242FE /* main.m in Sources */,
-				847985221DEFC37B006242FE /* LNGTeamPKscoreView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
